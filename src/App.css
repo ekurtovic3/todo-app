@@ -1,0 +1,90 @@
+.app {
+  height: 10em;
+  position: relative;
+}
+
+.todoapp {
+  width: 90%;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  float: center;
+  padding: 20px;
+  background: rgba(3,00, 20, 20);
+  color: #fff;
+  border: 0px solid rebeccapurple;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgb(223, 111, 19);
+}
+
+.todoapp h1,
+h2 {
+  background-color: rgb(223, 111, 19);
+  padding: 5px;
+  border: 1px solid rgb(1, 1, 24);
+  border-radius: 10px;
+  color:black;
+}
+
+.todoapp h3 {
+  color: orange;
+}
+
+
+.add {
+  margin-top: 15px;
+  cursor: pointer;
+  size: 50px;
+}
+
+
+.row {
+  padding: 30px;
+  gap: 15px;
+}
+
+.textfield {
+  color: #d35913;
+}
+
+.todo {
+  display: row;
+  flex-direction: column;
+}
+.desc{
+  display: inline-flex;
+}
+.list {
+  margin-top: 10px;
+  box-shadow: var(--box-shadow);
+  color: #333;
+  display: block;
+  justify-content: flex-start;
+  position: relative;
+  margin-left: 5px;
+  text-align: start;
+}
+
+.icon {
+  cursor: pointer;
+  color: #333;
+}
+.icon:hover {
+  color: #d35913;
+}
+
+.complete {
+  color: #333;
+  width: 30rem;
+  margin-left: 0px;
+  text-decoration: line-through;
+  text-decoration-color: #d35913;
+}
+
+.pending {
+  color: #333;
+  width: 30rem;
+  margin-left: 0px;
+}
